@@ -1,0 +1,65 @@
+/* Estilo general de la tarjeta */
+.card {
+    border: 1px solid #ddd; /* Borde ligero */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación */
+}
+
+/* Efecto hover en la tarjeta */
+.card:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+/* Imagen dentro de la tarjeta */
+.card-img-top {
+    height: 200px; /* Ajustar altura */
+    object-fit: cover; /* Asegura que la imagen mantenga proporción */
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+/* Efecto hover en la imagen */
+.card:hover .card-img-top {
+    transform: scale(1.1); /* Zoom en la imagen */
+}
+
+/* Título de la tarjeta */
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Texto del cuerpo */
+.card-text {
+    color: #666; /* Color gris suave */
+    line-height: 1.6;
+}
+
+/* Botón con efecto minimalista */
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto hover en el botón */
+.btn-info:hover {
+    background-color: #138496; /* Cambia a un tono más oscuro */
+    transform: translateY(-3px); /* Botón se eleva ligeramente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra */
+}
+
+/* Centrar contenido del botón */
+.text-center {
+    text-align: center;
+}
+
+ .carousel-inner{
+    max-height: 30rem;
+}
